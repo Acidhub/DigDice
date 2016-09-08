@@ -42,4 +42,4 @@ try:
     main()
 except KeyboardInterrupt:
     GPIO.cleanup()
-    mx.flush()
+    mx.clear()
